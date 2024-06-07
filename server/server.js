@@ -10,7 +10,7 @@ const port = 5000;
 
 // Middlewares
 app.use(cors({
-    origin: 'http://localhost:5173',
+    origin: 'https://movie-list-psi-three.vercel.app',
     methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'],
     credentials: true,
 }));
