@@ -7,7 +7,7 @@ import Movies from './pages/Movies'
 import './App.css'
 
 export const Instance = axios.create({
-  baseURL: 'http://localhost:5000',
+  baseURL: 'https://movie-list-ffgp.onrender.com',
   timeout: 10000,
 });
 
